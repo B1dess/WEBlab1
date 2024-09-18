@@ -1,6 +1,6 @@
 ﻿*{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .flex-container-body{
@@ -8,48 +8,103 @@
     display: flex;
     flex-direction: column;
 }
+
 .flex-container-column{
-    flex: 1;
+    flex: 10 0 0;
     display: flex;
     flex-direction: column;
 }
+
 .flex-container-row{
-    flex: 1;
+    flex: 10 0 0;
     display: flex;
     flex-direction: row;
+}
+
+h1{
+    background-color: white;
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6{
     border: black solid 1px;
     display: flex;
+    word-break: break-word;
 }
 
-a, img{
-    width: 100%;
-    height: 100%;
+ul, ol{
+    padding-left: 25px;
 }
 
 .div1{
-    width: 25%;
+    flex-direction: column;
+    padding: 5px;
+    flex: 2.5 0 0;
+    font-size: 26px;
     background-color: bisque;
 }
 .div2{
-    height: 25%;
+    flex: 2.5 0 0;
+    padding-right: 20px;
+    justify-content: right;
+    align-items: center;
     background-color: lightsteelblue;
 }
 .div3{
-    height: 15%;
+    font-size: 45px;
+    justify-content: center;
+    flex: 1.25 0 0;
     background-color: darkseagreen;
+}
+
+.espada-img{
+    margin:auto;
+    width: 15vw;
+    height: auto;
+}
+
+.starrk-img{
+    margin:auto;
+    width: 15vw;
+    height: auto;
+}
+
+.barragan-img{
+    margin:auto;
+    width: 21vw;
+    height: auto;
+}
+
+.harribel-img{
+    margin:auto;
+    width: 19vw;
+    height: auto;
+}
+
+.ulquiorra-img{
+    width: 17vw;
+    height: auto;
 }
 .div4{
-    width: 33%;
+    flex-direction: column;
+    padding: 5px;
+    flex: 4 0 0;
+    font-size: 20px;
     background-color: darkseagreen;
 }
+
+.espada{
+    aspect-ratio: 2/1;
+    height:100%;
+    width:100%;
+}
+
 .div5{
-    flex: 1;
-    justify-content: right;
+    flex: 8 0 0;
 }
 .div6{
-    height: 20%;
+    flex: 2 0 0;
+    padding-left: 20px;
+    justify-content: left;
+    align-items: center;
     background-color: lightsteelblue;
 }
